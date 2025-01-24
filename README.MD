@@ -15,6 +15,7 @@ Before using update values in properties file.
 ## Articles:
 
 - Part 1 (Mastering Telegram Bot Development with Java, Spring, and PostgreSQL: Part 1 — Build Your First Echo Bot): [https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-1-build-your-first-4dbe59f3bcdf](https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-1-build-your-first-4dbe59f3bcdf)
+- Part 2 (Mastering Telegram Bot Development with Java, Spring, and PostgreSQL: Part 2 — Handlers, JPA & Clean Architecture): [https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-2-handlers-jpa-c60121dd1143](https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-2-handlers-jpa-c60121dd1143)
 
 
 ## License
