@@ -18,7 +18,7 @@ ATTENTION AFTER PART 3: change the active profile in the application.properties 
 
 - Part 1 (Mastering Telegram Bot Development with Java, Spring, and PostgreSQL: Part 1 — Build Your First Echo Bot): [https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-1-build-your-first-4dbe59f3bcdf](https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-1-build-your-first-4dbe59f3bcdf)
 - Part 2 (Mastering Telegram Bot Development with Java, Spring, and PostgreSQL: Part 2 — Handlers, JPA & Clean Architecture): [https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-2-handlers-jpa-c60121dd1143](https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-2-handlers-jpa-c60121dd1143)
-- Part 3 [https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-3-lazy-loading-entity-1c037dab4e3c](https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-3-lazy-loading-entity-1c037dab4e3c)
+- Part 3 (Mastering Telegram Bot Development with Java, Spring, and PostgreSQL: Part 3— Lazy Loading, Entity Updates, Transactional Insights, Command Updates) [https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-3-lazy-loading-entity-1c037dab4e3c](https://medium.com/@dimbiy/mastering-telegram-bot-development-with-java-spring-and-postgresql-part-3-lazy-loading-entity-1c037dab4e3c)
 
 
 ## License
