@@ -23,8 +23,20 @@ public class CommandHandler {
                     message.getFrom().getLastName(),
                     message.getChatId()
             );
-            bot.sendMessage("Created at: " + telegramUser.getCreatedAt() +
-                    ", Updated at" + telegramUser.getUpdatedAt(),
+            bot.sendMessage("Hello," + message.getFrom().getFirstName(),
+                    message.getChatId());
+        }
+        if(command.equals("/subscribe")) {
+            telegramUserService.changeSubState(message.getFrom().getId());
+            bot.sendMessage("Your sub/unsub state is changed! Use /data to check.",
+                    message.getChatId());
+        }
+        if(command.equals("/data")) {
+            TelegramUser telegramUser = telegramUserService.getTelegramUser(message.getFrom().getId());
+            bot.sendMessage("Your telegram user id: " + telegramUser.getTelegramUserId() +
+                    "\nYour last update at: " + telegramUser.getUpdatedAt() +
+                    "\nSub/unsub state: " + (telegramUser.isSubscribed() ? "active sub" : "inactive sub") +
+                    "\nMessages amount: " + telegramUser.getMessages().size(),
                     message.getChatId());
         }
     }

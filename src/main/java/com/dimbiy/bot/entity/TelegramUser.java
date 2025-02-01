@@ -1,16 +1,15 @@
 package com.dimbiy.bot.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity(name = "telegram_users")
 @NoArgsConstructor
@@ -29,7 +28,14 @@ public class TelegramUser {
     private String lastName;
     private Long chatId;
 
+    private boolean subscribed;
+
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+
+    @OneToMany(mappedBy = "user",
+            fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
+    private List<Message> messages = new ArrayList<>();
 
 }
